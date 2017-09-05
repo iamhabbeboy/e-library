@@ -1,0 +1,505 @@
+@font-face {
+  font-family: 'Dosis';
+  src: url('./css/fonts/Dosis-ExtraLight.ttf');
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'trebuchet ms', verdana, helvetica;
+  font-size: 14px;
+  background: #fff;
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  min-width: 940px;
+  background: #fff;
+  min-height: 700px;
+}
+
+.divider {
+  width: 100%;
+  height: 20px;
+  background: -moz-linear-gradient(top, rgb(127, 177, 43), rgb(127, 177, 13));
+  background: skyblue;
+  border-bottom: 3px solid tomato;
+}
+
+.header-logo {
+  height: 120px;
+  width: 100%;
+  background: #fff;
+  padding-bottom: 15px;
+  box-shadow: 1px 2px solid #eee;
+}
+
+.header-inside {
+  width: 850px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.img-logo {
+  width: 120px;
+  margin: 0;
+  height: 100%;
+  float: left;
+  padding: 0;
+}
+
+.header-title {
+  width: 730px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  vertical-align: top;
+}
+
+.clear {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+.header-title h3 {
+  margin-top: -10px;
+  color: tomato;
+}
+
+.content {
+  width: 100%;
+  height: 400px;
+  min-width: 600px;
+  background: skyblue;
+  padding-bottom: 100px;
+  border-top: 3px solid tomato;
+  border-bottom: 3px solid tomato;
+}
+
+.content2 {
+  width: 100%;
+  min-height: 400px;
+  min-width: 650px;
+	background: skyblue;
+	border-top: 3px solid tomato;
+	border-bottom: 3px solid tomato;
+  padding: 10px;
+}
+
+.sub-content {
+  width: 850px;
+  margin: 0 auto;
+  height: 400px;
+  height: 100%;
+  padding: 30px;
+}
+
+.slide {
+  height: 340px;
+  float: left;
+  width: 550px;
+  background: url(../images/4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slide4 {
+  min-height: 340px;
+  float: left;
+  width: 850px;
+  background: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slide5 {
+  min-height: 340px;
+  float: left;
+  margin-left: -40px;
+  width: 950px;
+  background: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slide3 {
+  min-height: 340px;
+  float: left;
+  width: 550px;
+  background: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slide2 {
+  min-height: 330px;
+  float: left;
+  width: 650px;
+  background: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-bottom: 10px;
+}
+
+.slide h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px;
+  margin-top: 140px;
+  padding: 10px;
+  color: #000;
+  background: rgba(255, 255, 255, 0.6);
+	font-family: 'Dosis';
+}
+
+.slide5 h3, .slide4 h3, .slide3 h3 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.slide2 h3 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.login {
+  height: 340px;
+  float: left;
+  width: 300px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.login2 {
+  min-height: 340px;
+  float: left;
+  width: 200px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 200px;
+  margin-left: 110px;
+  margin-top: 10px;
+  position: absolute;
+  background: url(../images/people.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.circle2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 200px;
+  margin-left: 60px;
+  margin-top: 10px;
+  position: absolute;
+  background: url(../images/people.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.circle2 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 200px;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  border-radius: 200px;
+  margin-left: 110px;
+  margin-top: 10px;
+  position: absolute;
+  background: url(../images/forget.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.field {
+  padding-top: 70px;
+  width: 280px;
+  background: #fff;
+  height: 200px;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.field2 {
+  padding-top: 40px;
+  background: #fff;
+  min-height: 230px;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.field2 li a{
+	color: tomato;
+	text-decoration: none;
+}
+
+.field2 li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+label span {
+  color: #f00;
+  font-size: 20px;
+}
+
+.field2 ul {
+  list-style-image: url(../images/plus.png);
+}
+
+.field2 ul li {
+  padding: 3px;
+}
+
+.field input[type='text'] {
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid #aaa;
+  display: block;
+  padding: 10px;
+  background: url(../images/username.png) right no-repeat;
+  margin-bottom: 10px;
+  box-shadow: 2px 7px inset 777px;
+}
+
+label {
+  margin-left: 40px;
+  font-size: 14px;
+  padding-bottom: 2px;
+}
+
+input[type='text'] {
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid #aaa;
+  display: block;
+  padding: 10px;
+  /*background: url(../images/text.png) right no-repeat ;*/
+  margin-bottom: 10px;
+  box-shadow: 2px 7px inset 777px;
+}
+
+input[type='number'] {
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid #aaa;
+  display: block;
+  padding: 10px;
+  /*background: url(../images/phone.png) right no-repeat ;*/
+  margin-bottom: 10px;
+  box-shadow: 2px 7px inset 777px;
+}
+
+input[type='password'] {
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid #aaa;
+  display: block;
+  padding: 10px;
+  /*background: url(../images/password2.png) right no-repeat ;*/
+  margin-bottom: 10px;
+  box-shadow: 2px 7px inset 777px;
+}
+
+input[type='email'] {
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid #aaa;
+  display: block;
+  padding: 10px;
+  /*background: url(../images/email.png) right no-repeat ;*/
+  margin-bottom: 10px;
+  box-shadow: 2px 7px inset 777px;
+}
+
+select {
+  width: 89%;
+  margin: 0 auto;
+  border: 1px solid #aaa;
+  display: block;
+  padding: 10px;
+  /*background: url(../images/usernam.png) right no-repeat ;*/
+  margin-bottom: 10px;
+  box-shadow: 2px 7px inset 777px;
+}
+
+input[type='file'] {
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid #aaa;
+  display: block;
+  padding: 10px;
+  /*background: url(../images/photo.png) right no-repeat ;*/
+  margin-bottom: 10px;
+  box-shadow: 2px 7px inset 777px;
+}
+
+textarea {
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid #aaa;
+  display: block;
+  padding: 10px;
+  /*background: url(../images/textarea.png) right no-repeat ;*/
+  margin-bottom: 10px;
+  box-shadow: 2px 7px inset 777px;
+}
+
+.field input[type='password'] {
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid #aaa;
+  display: block;
+  padding: 10px;
+  background: url(../images/password.png) right no-repeat;
+  margin-bottom: 10px;
+  box-shadow: 2px 7px inset 777px;
+}
+
+.field input[type='text']:hover, .field input[type='password']:hover {
+  border: 1px solid #000;
+}
+
+input[type='password']:hover, input[type='number']:hover, select:hover, textarea:hover, input[type='text']:hover, .field input[type='password']:hover {
+  border: 1px solid #000;
+}
+
+input[type='submit']:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.field input[type='submit']:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.field input[type='submit'] {
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid #aaa;
+  display: block;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+input[type='submit'] {
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid #aaa;
+  display: block;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.forget-link {
+  text-align: center;
+  padding: 19px;
+}
+
+a:visited {
+  color: #119;
+}
+
+a:hover {
+  color: #f00;
+}
+
+.option-link {
+  margin: 0px;
+  padding: 0px;
+  margin-right: 15px;
+  margin-top: -10px;
+}
+
+.side-link {
+  float: right;
+  width: 40px;
+  padding: 10px;
+}
+
+.active {
+  text-transform: uppercase;
+  color: #800;
+  text-decoration: none;
+}
+
+table {
+  padding: 5px;
+  margin: 10px;
+  width: 98%;
+}
+
+table thead tr {
+  background: #000;
+  color: #fff;
+  width: 98%;
+}
+
+table thead tr td {
+  padding: 8px;
+}
+
+table tbody tr td {
+  border-bottom: 1px solid #aaa;
+  padding: 5px;
+}
+
+.room-result, .staff-result, .code-result {
+  width: 525px;
+  margin-left: 38px;
+  margin-right: 15px;
+  margin-top: -7px;
+  padding: 15px;
+  min-height: 30px;
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: absolute;
+  z-index: 100;
+}
+
+.room-result, .staff-result li, .code-result li {
+  text-transform: uppercase;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#room, #staff, #code {
+  text-transform: uppercase;
+}
